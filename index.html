@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SunnyBite — Fresh Flavors, Brighter Days | I-8 Islamabad</title>
+    <meta name="description" content="Welcome to SunnyBite in I-8, Islamabad. Artisanal botanical bistro serving handcrafted pastas, gourmet burgers, fresh smoothies, and wood-fired pizzas with organic goodness." />
+    <meta name="author" content="Abdul Manan" />
+    <meta name="theme-color" content="#FBF5EB" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="restaurant" />
+    <meta property="og:url" content="https://sunnybite.pk/" />
+    <meta property="og:title" content="SunnyBite — Fresh Flavors, Brighter Days | I-8 Islamabad" />
+    <meta property="og:description" content="Good food · Good mood. Delicious artisanal dishes, fresh ingredients, and a cozy botanical retreat in I-8, Islamabad." />
+    <meta property="og:image" content="https://sunnybite.pk/images/hero-interior.jpg" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="SunnyBite — Fresh Flavors, Brighter Days | I-8 Islamabad" />
+    <meta name="twitter:description" content="Good food · Good mood. Delicious artisanal dishes, fresh ingredients, and a cozy botanical retreat in I-8, Islamabad." />
+    <meta name="twitter:image" content="https://sunnybite.pk/images/hero-interior.jpg" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://sunnybite.pk/" />
+
+    <!-- Favicon & PWA Manifest -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/logo-icon.svg" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+
+    <!-- Google Fonts: Inter & Playfair Display -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,500;1,600&display=swap" rel="stylesheet" />
+    
+    <!-- Material Symbols Outlined -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+
+    <!-- JSON-LD Restaurant Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "SunnyBite",
+      "image": "https://sunnybite.pk/images/hero-interior.jpg",
+      "logo": "https://sunnybite.pk/logo-horizontal.svg",
+      "url": "https://sunnybite.pk",
+      "telephone": "+923097227807",
+      "priceRange": "Rs. 250 - Rs. 1550",
+      "servesCuisine": ["Café", "Artisanal Bistro", "Pastas", "Burgers", "Wood-fired Pizza", "Healthy Organic", "Desserts"],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "I-8 Markaz",
+        "addressLocality": "Islamabad",
+        "addressRegion": "ICT",
+        "postalCode": "44000",
+        "addressCountry": "PK"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 33.6685,
+        "longitude": 73.0754
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "opens": "09:00",
+          "closes": "22:00"
+        }
+      ],
+      "hasMenu": "https://sunnybite.pk/menu",
+      "acceptsReservations": "True"
+    }
+    </script>
+
+    <!-- Optional Privacy-Friendly Analytics Hook (Commented out by default)
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    -->
+  </head>
+  <body class="bg-surface font-body-md text-on-surface antialiased selection:bg-primary-fixed selection:text-on-primary-fixed">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

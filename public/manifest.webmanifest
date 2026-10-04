@@ -1,0 +1,26 @@
+{
+  "name": "SunnyBite Café & Bistro",
+  "short_name": "SunnyBite",
+  "description": "Artisanal botanical bistro and fresh café in I-8, Islamabad",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FBF5EB",
+  "theme_color": "#FBF5EB",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/logo-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/logo-horizontal.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
